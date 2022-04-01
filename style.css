@@ -1,0 +1,105 @@
+#banner {
+width: 100vw;
+height: 100vh;
+background-image: url(https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-blossom-tree-1225186_1280.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+h1 {
+color: #560027;
+text-align: center;
+font-size: 80px;
+font-family: 'Fredoka One', cursive;padding-top: 20vh;
+margin: 0;
+}
+#main-subtitle {
+color: #560027;
+text-align: center;
+opacity: 10;
+font-family: 'BIZ UDMincho', serif;
+font-size: 30px;
+
+}
+#bouton {
+color: white;
+font-family: 'BIZ UDMincho', serif;
+font-size: 20px;
+background-color:#7f0000;
+text-decoration: none;
+text-align: center;
+padding: 30px 60px;
+position: relative;
+top: 150px;
+border-radius: 150px;
+font-weight: 1000px;
+}
+
+#bouton:hover {
+background-color:#560027;
+transition: all 0.5s ease-out;
+padding: 10px 35px;
+}
+
+#subtitle {
+font-family: 'BIZ UDMincho', serif;
+color: white;
+font-weight: bold;
+margin-left: 50%;
+margin-right: 50%;
+}
+#container {
+border: solid;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.card {
+background-color: #560027;
+width: 200px;
+height: 500px;
+box-shadow: 0 0 0px rgb (0,0,0,0.1);
+border-radius: 0px;
+padding: 53px;
+margin: 1px;
+border: 1px solid #333333;
+}
+
+.card img {
+width: 100%;
+border-radius: 170px;
+height: 200px;
+right: 50PX;
+left: 180px;
+object-fit: COVER;
+
+}
+.card h3 {
+color:#5472d3;
+text-align: center;
+font-family: 'Fredoka One', cursive;font-size: 20px;
+}
+
+.card p {
+color: #ffffff;
+text-align: center;
+font-family: 'BIZ UDMincho', serif;
+font-size: 15px;
+
+}
+
+#footer {
+height: 5px;
+background-color: #8c0032;
+background-image: url(https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-blossom-tree-1225186_1280.jpg);
+color: #560027;
+padding-top: 10%;
+margin-top: 1px;
+margin-left: 1px;
+padding-bottom: 100px;
+text-align: center;
+font-family: 'Fredoka One', cursive;font-size: 40px;
+
+
+}
